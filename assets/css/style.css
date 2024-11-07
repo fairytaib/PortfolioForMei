@@ -33,14 +33,21 @@ h1, h2{
     min-height: 500px;
     padding: 5% 7%;
 }
-
-
 #about{
     background-color: white;
 }
 
 #portfolio{
     background-color: var(--lightGrey);
+}
+
+#portfolio .card-title{
+    color: var(--midBlue);
+    font-size: 1.3rem;
+}
+
+#portfolio .btn-outline-secondary:hover{
+    background-color: var(--midBlue);
 }
 
 #contact{
