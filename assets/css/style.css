@@ -1,14 +1,6 @@
-/*  
-    #a4c2d1; egg blue
-    #dbdcde; light grey
-    #1f7798; mid-blue
-    #184f63; dark-blue
-*/
-
-/* global styles */
-
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
 
+/* general settings start*/
 :root{
     --eggBlue: #a4c2d1;
     --lightGrey: #dbdcde;
@@ -22,6 +14,12 @@ body{
     font-family: var(--mainFont);
     background-color: var(--eggBlue);
 }
+
+
+.sharp-corners, .sharp-corners *{
+    border-radius: 0px;
+}
+/* general settings end */
 
 h1, h2{
     font-family: var(--secondFont);
